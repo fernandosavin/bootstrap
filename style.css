@@ -1,5 +1,5 @@
 .body{
-background-color:white;
+background-color:gray;
 font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 .encabezado{
@@ -13,13 +13,13 @@ font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 
 .divCarrucel{
-	width: 100%;
+	width: 50%;
 	height: 400px;
 }
 
 .imgCarrucel{
-	width: 100%;
-	max-height: 400px;
+	width: 80%;
+	max-height: 100%;
 }
 
 .textCarru{
