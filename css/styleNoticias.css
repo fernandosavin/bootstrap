@@ -126,3 +126,9 @@
   img:hover{
     filter: opacity(.5);
   }
+
+  .divgalerias
+      {
+        background-color: white;
+        margin-bottom: 10px;
+      }
