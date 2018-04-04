@@ -14,6 +14,8 @@
   box-shadow: none;
   overflow: hidden;
   color: #0a0a0a;
+  margin-left: 30%;
+
 }
 
 .card-user-profile > :last-child {
@@ -26,6 +28,7 @@
 
 .card-user-profile-content {
   position: relative;
+  width: 50%;
 }
 
 .card-user-profile-content::before {
@@ -58,7 +61,7 @@
 }
 
 .card-user-profile-img {
-  max-width: 100%;
+  max-width: 50%;
   opacity: 0.85;
   transition: all 0.25s ease;
 }
@@ -98,3 +101,28 @@
   letter-spacing: 1px;
   opacity: 0.8;
 }
+
+.gal {
+  
+  
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    
+  
+  } 
+.gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {
+    
+  .gal {
+  -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    
+   }
+    
+  }
+
+  img:hover{
+    filter: opacity(.5);
+  }
